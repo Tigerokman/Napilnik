@@ -26,7 +26,7 @@ namespace _01._01
 
         public void TakeDamage(int damage)
         {
-            _health = damage;
+            _health -= damage;
         }
     }
 
